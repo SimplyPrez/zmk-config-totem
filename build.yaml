@@ -1,14 +1,14 @@
 include:
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totem_dongle
     artifact-name: totem_dongle-central
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totem_left
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: totem_left-peripheral
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totem_right
     artifact-name: totem_right-peripheral
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totem_left
     artifact-name: totem_left-central
